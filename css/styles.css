@@ -1,0 +1,46 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.intro {
+  background-image: url("../img/image.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  background-color: black;
+}
+
+.intro-text{
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+
+}
+.title, .subtitle{
+  text-shadow: 2px 2px #000000;
+}
+
+.title{
+  font-size: 90px;
+}
+.subtitle{
+  font-size: 30px;
+}
+
+.topbar
+{
+  position: absolute;
+  z-index: 2;
+
+}
